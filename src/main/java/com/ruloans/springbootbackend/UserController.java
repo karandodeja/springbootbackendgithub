@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public String demo() {
-        return "RULOANS (Static Page)";
+        return "RULOANS Backend CI/CD Hosting (Static Page from controller in getmapping method)";
     }
 }
